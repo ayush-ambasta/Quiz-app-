@@ -1,0 +1,30 @@
+form{
+    margin-left: -2em;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+li{
+    background-color: darkgray;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 1em;
+    width: 70%;
+    box-shadow: 5px 5px #888888;
+}
+h4{
+    margin-top: 5px;
+}
+label,input[type="radio"]:hover{
+    cursor: pointer;
+}
+button{
+    margin-left: 50vw;
+    width: 100px;
+    cursor: pointer;
+}
+
