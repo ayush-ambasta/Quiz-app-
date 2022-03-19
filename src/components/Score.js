@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Score.css"
 import { Link, useLocation} from 'react-router-dom'
 
@@ -6,6 +6,10 @@ export const Score = () => {
     const location=useLocation();
     const obj=location.state;
 
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, []);
+    
     if(!obj){
         return(<Link to="/"><h1 style={{textAlign:"center"}}>Attempt the Quiz to view Score</h1></Link>)
     }
