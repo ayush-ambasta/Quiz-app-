@@ -42,7 +42,7 @@ export const Question = ({data}) => {
           }
           obj.answer.push({yourAns:value,correctAns:data[index].correct_answer});
       });
-     // alert(`Your Score : ${correctAnswer}/10\nCorrect Answer are as follows... \n${correctopts.join('\n')}`);
+     
       obj.score=score;
       return Navigate('/score',{
           state:obj
