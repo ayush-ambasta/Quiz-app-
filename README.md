@@ -1,5 +1,5 @@
 # This Quiz Website is Live 
-https://tender-rosalind-737c2a.netlify.app
+https://random-quiz-123.netlify.app/
 
 # Getting Started with Create React App
 
